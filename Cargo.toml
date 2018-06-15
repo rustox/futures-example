@@ -1,0 +1,10 @@
+[package]
+name = "futures-example"
+version = "0.1.0"
+authors = ["Sanchayan Maity <maitysanchayan@gmail.com>"]
+
+[dependencies]
+futures="0.2.1"
+tokio-core="0.1"
+chrono = "0.4"
+futures-await = { git = 'https://github.com/alexcrichton/futures-await' }
